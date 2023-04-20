@@ -16,7 +16,6 @@ export class App extends Component {
 
   handleIncrement = label => {
     this.setState(prevState => {
-      console.log(prevState);
       return { [label.option]: prevState[label.option] + 1 };
     });
   };
